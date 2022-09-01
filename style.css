@@ -1,0 +1,117 @@
+body{
+    background: #F3F5FC;
+}
+
+.caja{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background:#F3F5FC;
+    padding: 5px;
+}
+
+.logoAlura{
+    width: 1440px;
+    float: left;
+    background: #F3F5FC;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 84px;
+    float: inherit;
+}
+
+.titulo{
+    float: inherit;
+    margin-left: 84px;
+}
+
+
+.panelEntradaTexto{
+    float: left;
+    width: 60%;
+    height: 56%;
+    border-radius: 30px;
+    background: #F3F5FC;
+}
+
+.entradaTexto{
+    margin-left: 90px;
+    margin-top: 80px;
+    width: 80%;
+    height: 60%;
+    font-size: large;
+    color: #0A3871;
+    border: 0px;
+    outline: 0px;
+    background: #F3F5FC;
+}
+
+.panelSalidaTexto{
+    float: right;
+    width: 40%;
+    height: auto;
+    border-radius: 30px;
+    background: white;
+}
+
+.botonEncpitarDesencriptar{
+    float: left;
+    height: auto;
+    width: 60%;
+    background: #F3F5FC;
+    border-radius: 30px;
+}
+
+.imagenPersona{
+    height: auto;
+    width: auto;
+}
+
+.mensajeNoEncontrado{
+    margin-left: 15% ;
+}
+
+.mensajeAbajoPersona{
+    float: left;
+    margin-left: 15%;
+    width: 73%;
+    background: white;
+    font-size: large;
+    border: 0px;
+    outline: 0px;
+}
+
+#botonEncriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 30px;
+    margin-left: 15%;
+    color: white;
+    background: darkblue;
+    font-size: large;
+}
+
+#botonDesencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 30px;
+    margin-left: 10%;
+    background: bisque;
+    font-size: large;
+}
+
+#botonCopiar{
+    margin-left: 37%;
+    margin-top: 70%;
+    padding: 24px;
+    width: 30%;
+    height: 10%;
+    border-radius: 30px;
+    background: lightgrey;
+    display: none;    
+}
