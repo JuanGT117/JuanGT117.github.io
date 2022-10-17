@@ -3,38 +3,31 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Encriptador</title>
+        <title>Ahoracdo</title>
         <link rel="stylesheet" href="style.css">
 
     </head>
 
     <body>
-        <div class="caja">
-
+        
             <div class="logoAlura">
                 <img class="logo" src="Imagenes/logoAlura.png">
-                <h1 class="titulo">Encriptador</h1>
+                <button class=botonInicio id="inicio" onclick="inicio() " >Volver al Jugar</button>
             </div>
 
-            <div class="panelEntradaTexto">
-                <input type="text" class="entradaTexto" placeholder="Ingrese el texto aqui">
-            </div>
-
-            <div class="panelSalidaTexto">
-                <img src="Imagenes/personaBuscando.png" class="imagenPersona" id="imagenPersona">
-                <h1 class="mensajeNoEncontrado" id="mensajeNoEncontrado" >No se encontro ningun mensaje</h1>
-                <textarea class="mensajeAbajoPersona" id="mensajeAbajoPersona" rows="8" cols="70">Ingrese el texto que quieras encriptar o desencriptar</textarea>
-                <button type="button" id="botonCopiar" onclick="copiar()">Copiar</button>
-            </div>
             
-            <div class="botonEncpitarDesencriptar">
-                <p>¡Solo letras minusculas y sin acentos!</p>
-                <button type="button" id="botonEncriptar" onclick="botonEncriptar()">Encriptar</button>
-                <button type="button" id="botonDesencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            <div class="iniciarJuego">
+                <button type="button" class=botonIniciarJuego id="botonIniciarJuego" onclick="iniciarJuego()">Iniciar Juego</button>
             </div>
 
-        <script src="javascript.js"></script>
+            <div id="apareceAhorcado" class="canvas" >
 
+                <canvas id="horca" width="1200" height="860"></canvas>
+            
+            </div>
+
+        <script src="horca.js"></script>
+        <script src="canvas.js"></script>
     </body>
 
 
